@@ -1,0 +1,36 @@
+#
+# PM Gif
+# Created by t-jaym
+#
+
+
+#
+# Standard Command Line Definitions
+#
+
+cp=cl -c -W3 -AS -G2sw -Ox -Zpe
+
+#
+# Default Inference Rules
+#
+
+.c.obj:
+  $(cp) $*.c
+
+.asm.obj:
+  masm $*.asm;
+
+.rc.res:
+  rc -r $*.rc
+
+#
+# Dependencies
+#
+
+clip.obj: clip.c
+
+clip.res: clip.rc clip.ico
+
+clip.exe: clip.obj
+  link @clip.lnk
+  rc clip.res

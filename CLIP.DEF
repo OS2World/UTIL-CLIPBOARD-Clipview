@@ -1,0 +1,15 @@
+;
+; PMGif Definition File
+; Created by t-jaym
+;
+
+NAME        Clip    WINDOWAPI
+DESCRIPTION 'OS/2 Clipboard Viewer v1.0'
+STUB        'OS2STUB.EXE'
+CODE        MOVEABLE
+DATA        MOVEABLE MULTIPLE
+HEAPSIZE    1024
+STACKSIZE   8192
+EXPORTS
+    ClipboardWndProc   @1
+    AboutDlgProc       @2

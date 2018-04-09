@@ -1,0 +1,11 @@
+/*
+    Clipview Resource File
+    Created by Jay F. McLain
+*/
+
+#include <os2.h>
+#include "clip.h"
+
+RCINCLUDE about.dlg
+
+POINTER ID_CLIPBOARD clip.ico

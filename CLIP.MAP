@@ -1,0 +1,275 @@
+
+ clip
+
+ Start     Length     Name                   Class
+ 0001:0000 00959H     _TEXT                  CODE
+ 0001:095A 00000H     C_ETEXT                ENDCODE
+ 0002:0000 00042H     NULL                   BEGDATA
+ 0002:0042 00200H     _DATA                  DATA
+ 0002:0242 0000EH     CDATA                  DATA
+ 0002:0250 00000H     XIB                    DATA
+ 0002:0250 00000H     XI                     DATA
+ 0002:0250 00000H     XIE                    DATA
+ 0002:0250 00000H     XPB                    DATA
+ 0002:0250 00000H     XP                     DATA
+ 0002:0250 00000H     XPE                    DATA
+ 0002:0250 00000H     XCB                    DATA
+ 0002:0250 00000H     XC                     DATA
+ 0002:0250 00000H     XCE                    DATA
+ 0002:0250 00000H     CONST                  CONST
+ 0002:0250 00008H     HDR                    MSG
+ 0002:0258 000FAH     MSG                    MSG
+ 0002:0352 00002H     PAD                    MSG
+ 0002:0354 00001H     EPAD                   MSG
+ 0002:0356 00000H     _BSS                   BSS
+ 0002:0356 00000H     XOB                    BSS
+ 0002:0356 00000H     XO                     BSS
+ 0002:0356 00000H     XOE                    BSS
+ 0002:0360 0006CH     c_common               BSS
+ 0002:03D0 02000H     STACK                  STACK
+
+ Origin   Group
+ 0002:0   DGROUP
+
+ Address   Export                  Alias
+
+ 0001:0448 AboutDlgProc            AboutDlgProc
+ 0001:00DC ClipboardWndProc        ClipboardWndProc
+
+  Address         Publics by Name
+
+ 0001:0448       AboutDlgProc
+ 0001:00DC       ClipboardWndProc
+ 0000:0000  Imp  DEVCLOSEDC           (PMGPI.2)
+ 0000:0000  Imp  DEVOPENDC            (PMGPI.1)
+ 0000:0000  Imp  DOSCLOSE             (DOSCALLS.59)
+ 0000:0000  Imp  DOSEXIT              (DOSCALLS.5)
+ 0000:0000  Imp  DOSGETMACHINEMODE    (DOSCALLS.49)
+ 0000:0000  Imp  DOSGETVERSION        (DOSCALLS.92)
+ 0000:0000  Imp  DOSQHANDTYPE         (DOSCALLS.77)
+ 0000:0000  Imp  DOSREALLOCSEG        (DOSCALLS.38)
+ 0000:0000  Imp  DOSSETVEC            (DOSCALLS.89)
+ 0000:0000  Imp  DOSWRITE             (DOSCALLS.138)
+ 0000:0000  Imp  GPIBITBLT            (PMGPI.205)
+ 0000:0000  Imp  GPICHARSTRINGAT      (PMGPI.181)
+ 0000:0000  Imp  GPICREATEPS          (PMGPI.7)
+ 0000:0000  Imp  GPIDESTROYPS         (PMGPI.10)
+ 0000:0000  Imp  GPISETBITMAP         (PMGPI.198)
+ 0002:023A       STKHQQ
+ 0000:0000  Imp  WINBEGINPAINT        (PMWIN.45)
+ 0000:0000  Imp  WINCLOSECLIPBRD      (PMWIN.112)
+ 0000:0000  Imp  WINCREATEMSGQUEUE    (PMWIN.58)
+ 0000:0000  Imp  WINCREATESTDWINDOW   (PMWIN.140)
+ 0000:0000  Imp  WINDEFDLGPROC        (PMWIN.179)
+ 0000:0000  Imp  WINDEFWINDOWPROC     (PMWIN.178)
+ 0000:0000  Imp  WINDESTROYMSGQUEUE   (PMWIN.59)
+ 0000:0000  Imp  WINDESTROYWINDOW     (PMWIN.7)
+ 0000:0000  Imp  WINDISMISSDLG        (PMWIN.126)
+ 0000:0000  Imp  WINDISPATCHMSG       (PMWIN.68)
+ 0000:0000  Imp  WINDLGBOX            (PMWIN.125)
+ 0000:0000  Imp  WINENDPAINT          (PMWIN.46)
+ 0000:0000  Imp  WINFILLRECT          (PMWIN.173)
+ 0000:0000  Imp  WINGETMSG            (PMWIN.65)
+ 0000:0000  Imp  WININITIALIZE        (PMWIN.246)
+ 0000:0000  Imp  WININVALIDATERECT    (PMWIN.47)
+ 0000:0000  Imp  WINOPENCLIPBRD       (PMWIN.111)
+ 0000:0000  Imp  WINOPENWINDOWDC      (PMWIN.41)
+ 0000:0000  Imp  WINQUERYCLIPBRDDATA  (PMWIN.117)
+ 0000:0000  Imp  WINQUERYCLIPBRDFMTINFO (PMWIN.119)
+ 0000:0000  Imp  WINQUERYWINDOW       (PMWIN.25)
+ 0000:0000  Imp  WINQUERYWINDOWPOS    (PMWIN.10)
+ 0000:0000  Imp  WINREGISTERCLASS     (PMWIN.3)
+ 0000:0000  Imp  WINSENDMSG           (PMWIN.61)
+ 0000:0000  Imp  WINSETCLIPBRDVIEWER  (PMWIN.120)
+ 0000:0000  Imp  WINSETWINDOWTEXT     (PMWIN.16)
+ 0000:0000  Imp  WINTERMINATE         (PMWIN.247)
+ 0000:0000  Imp  WINWINDOWFROMID      (PMWIN.19)
+ 0002:0372       _aptl
+ 0002:0356       _edata
+ 0002:03D0       _end
+ 0002:022F       _environ
+ 0002:01F8       _errno
+ 0001:05F7       _exit
+ 0002:0366       _hAB
+ 0002:036E       _hDC
+ 0002:03C8       _hMemDC
+ 0002:03B0       _hMemPS
+ 0002:036A       _hwndClient
+ 0002:03AC       _hwndFrame
+ 0002:03C4       _hwndSysMenu
+ 0002:0360       _hwndSysSubMenu
+ 0002:03AA       _idSysMenu
+ 0001:0010       _main
+ 0002:008A       _mi
+ 0002:03B4       _miSysMenu
+ 0002:006C       _pszData
+ 0002:0364       _sItem
+ 0002:03A2       _sizlPage
+ 0002:007C       _szClientClass
+ 0002:0086       _szMenuText
+ 0002:01E0       __abrkp
+ 0002:00E0       __abrktb
+ 0002:01E0       __abrktbe
+ 0002:01E2       __acfinfo
+ 0002:00D6       __acmdln
+ 0000:9876  Abs  __acrtmsg
+ 0000:9876  Abs  __acrtused
+ 0002:0238       __adbgmsg
+ 0002:00D8       __aenvseg
+ 0002:00DE       __aexit_rtn
+ 0001:04F6       __amsg_exit
+ 0002:00DA       __asizds
+ 0001:049A       __astart
+ 0002:00DC       __atopsp
+ 0002:0235       __child
+ 0001:0696       __chkstk
+ 0001:0576       __cinit
+ 0001:04EC       __cintDIV
+ 0001:0652       __ctermsub
+ 0002:01FF       __doserrno
+ 0002:01FE       __dosmode
+ 0002:01FC       __dosvermajor
+ 0002:01FD       __dosverminor
+ 0001:060E       __exit
+ 0002:01F0       __fac
+ 0001:0670       __FF_MSGBANNER
+ 0002:0244       __fpinit
+ 0001:0690       __fptrap
+ 0002:0201       __nfile
+ 0001:08B4       __NMSG_TEXT
+ 0001:08E4       __NMSG_WRITE
+ 0001:06AC       __nullcheck
+ 0002:01FF       __oserr
+ 0002:0203       __osfile
+ 0002:01FC       __osmajor
+ 0002:01FD       __osminor
+ 0002:01FE       __osmode
+ 0002:01FC       __osversion
+ 0002:0231       __pgmptr
+ 0002:0217       __pipe
+ 0001:06CE       __setargv
+ 0001:083C       __setenvp
+ 0001:0918       __stdalloc
+ 0002:01FA       __umaskval
+ 0002:022B       ___argc
+ 0002:022D       ___argv
+
+  Address         Publics by Value
+
+ 0000:0000  Imp  WINDEFWINDOWPROC     (PMWIN.178)
+ 0000:0000  Imp  WINQUERYWINDOWPOS    (PMWIN.10)
+ 0000:0000  Imp  WININITIALIZE        (PMWIN.246)
+ 0000:0000  Imp  WINDISMISSDLG        (PMWIN.126)
+ 0000:0000  Imp  WINDESTROYWINDOW     (PMWIN.7)
+ 0000:0000  Imp  WINCREATEMSGQUEUE    (PMWIN.58)
+ 0000:0000  Imp  WINDISPATCHMSG       (PMWIN.68)
+ 0000:0000  Imp  WINOPENWINDOWDC      (PMWIN.41)
+ 0000:0000  Imp  GPICREATEPS          (PMGPI.7)
+ 0000:0000  Imp  WINBEGINPAINT        (PMWIN.45)
+ 0000:0000  Imp  WINWINDOWFROMID      (PMWIN.19)
+ 0000:0000  Imp  DOSSETVEC            (DOSCALLS.89)
+ 0000:0000  Imp  WINFILLRECT          (PMWIN.173)
+ 0000:0000  Imp  DOSEXIT              (DOSCALLS.5)
+ 0000:0000  Imp  WINSENDMSG           (PMWIN.61)
+ 0000:0000  Imp  DOSCLOSE             (DOSCALLS.59)
+ 0000:0000  Imp  WINSETCLIPBRDVIEWER  (PMWIN.120)
+ 0000:0000  Imp  WININVALIDATERECT    (PMWIN.47)
+ 0000:0000  Imp  GPICHARSTRINGAT      (PMGPI.181)
+ 0000:0000  Imp  WINGETMSG            (PMWIN.65)
+ 0000:0000  Imp  WINDEFDLGPROC        (PMWIN.179)
+ 0000:0000  Imp  WINDESTROYMSGQUEUE   (PMWIN.59)
+ 0000:0000  Imp  WINENDPAINT          (PMWIN.46)
+ 0000:0000  Imp  DOSGETVERSION        (DOSCALLS.92)
+ 0000:0000  Imp  WINCREATESTDWINDOW   (PMWIN.140)
+ 0000:0000  Imp  DOSWRITE             (DOSCALLS.138)
+ 0000:0000  Imp  WINQUERYWINDOW       (PMWIN.25)
+ 0000:0000  Imp  GPISETBITMAP         (PMGPI.198)
+ 0000:0000  Imp  WINQUERYCLIPBRDDATA  (PMWIN.117)
+ 0000:0000  Imp  WINCLOSECLIPBRD      (PMWIN.112)
+ 0000:0000  Imp  GPIDESTROYPS         (PMGPI.10)
+ 0000:0000  Imp  DEVCLOSEDC           (PMGPI.2)
+ 0000:0000  Imp  DOSGETMACHINEMODE    (DOSCALLS.49)
+ 0000:0000  Imp  WINQUERYCLIPBRDFMTINFO (PMWIN.119)
+ 0000:0000  Imp  WINREGISTERCLASS     (PMWIN.3)
+ 0000:0000  Imp  DEVOPENDC            (PMGPI.1)
+ 0000:0000  Imp  GPIBITBLT            (PMGPI.205)
+ 0000:0000  Imp  DOSREALLOCSEG        (DOSCALLS.38)
+ 0000:0000  Imp  WINTERMINATE         (PMWIN.247)
+ 0000:0000  Imp  WINSETWINDOWTEXT     (PMWIN.16)
+ 0000:0000  Imp  WINOPENCLIPBRD       (PMWIN.111)
+ 0000:0000  Imp  WINDLGBOX            (PMWIN.125)
+ 0000:0000  Imp  DOSQHANDTYPE         (DOSCALLS.77)
+ 0000:9876  Abs  __acrtused
+ 0000:9876  Abs  __acrtmsg
+ 0001:0010       _main
+ 0001:00DC       ClipboardWndProc
+ 0001:0448       AboutDlgProc
+ 0001:049A       __astart
+ 0001:04EC       __cintDIV
+ 0001:04F6       __amsg_exit
+ 0001:0576       __cinit
+ 0001:05F7       _exit
+ 0001:060E       __exit
+ 0001:0652       __ctermsub
+ 0001:0670       __FF_MSGBANNER
+ 0001:0690       __fptrap
+ 0001:0696       __chkstk
+ 0001:06AC       __nullcheck
+ 0001:06CE       __setargv
+ 0001:083C       __setenvp
+ 0001:08B4       __NMSG_TEXT
+ 0001:08E4       __NMSG_WRITE
+ 0001:0918       __stdalloc
+ 0002:006C       _pszData
+ 0002:007C       _szClientClass
+ 0002:0086       _szMenuText
+ 0002:008A       _mi
+ 0002:00D6       __acmdln
+ 0002:00D8       __aenvseg
+ 0002:00DA       __asizds
+ 0002:00DC       __atopsp
+ 0002:00DE       __aexit_rtn
+ 0002:00E0       __abrktb
+ 0002:01E0       __abrktbe
+ 0002:01E0       __abrkp
+ 0002:01E2       __acfinfo
+ 0002:01F0       __fac
+ 0002:01F8       _errno
+ 0002:01FA       __umaskval
+ 0002:01FC       __dosvermajor
+ 0002:01FC       __osversion
+ 0002:01FC       __osmajor
+ 0002:01FD       __dosverminor
+ 0002:01FD       __osminor
+ 0002:01FE       __osmode
+ 0002:01FE       __dosmode
+ 0002:01FF       __oserr
+ 0002:01FF       __doserrno
+ 0002:0201       __nfile
+ 0002:0203       __osfile
+ 0002:0217       __pipe
+ 0002:022B       ___argc
+ 0002:022D       ___argv
+ 0002:022F       _environ
+ 0002:0231       __pgmptr
+ 0002:0235       __child
+ 0002:0238       __adbgmsg
+ 0002:023A       STKHQQ
+ 0002:0244       __fpinit
+ 0002:0356       _edata
+ 0002:0360       _hwndSysSubMenu
+ 0002:0364       _sItem
+ 0002:0366       _hAB
+ 0002:036A       _hwndClient
+ 0002:036E       _hDC
+ 0002:0372       _aptl
+ 0002:03A2       _sizlPage
+ 0002:03AA       _idSysMenu
+ 0002:03AC       _hwndFrame
+ 0002:03B0       _hMemPS
+ 0002:03B4       _miSysMenu
+ 0002:03C4       _hwndSysMenu
+ 0002:03C8       _hMemDC
+ 0002:03D0       _end
+
+Program entry point at 0001:049A
